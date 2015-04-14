@@ -33,6 +33,14 @@
     "fonts/*",
     "js/*"
   ],
+  "commands": {
+    "view-as-slideshow": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+M"
+      },
+      "description": "View as slideshow"
+    }
+  },
   "offline_enabled": true,
   "manifest_version": 2
 }

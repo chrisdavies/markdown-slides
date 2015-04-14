@@ -4,6 +4,10 @@ Markdown slides is a Chrome extension that allows you to view any markdown file 
 
 ---
 
+## Launching slideshow
+
+Press `Ctrl+Shift+M` or `Cmd+Shift+M`, or just click the slideshow icon.
+
 ## Tech
 
 It is built using http://remarkjs.com/
