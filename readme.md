@@ -2,9 +2,13 @@
 
 Markdown slides is a Chrome extension that allows you to view any markdown file as a slideshow.
 
+---
+
 ## Tech
 
 It is built using http://remarkjs.com/
+
+---
 
 ## Styling
 
