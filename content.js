@@ -5,13 +5,16 @@
     var pre = document.querySelector('pre');
 
     if (pre) {
-      var url = document.location.pathname;
+      var url = document.location.href.split(/[\#\?]/, 2)[0];
       var fileName = url.split('/').slice(-1)[0];
+      var slidesCss = url.slice(0, -fileName.length) + 'slides.css';
+
       var win = window.open('', fileName, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=' + (screen.width) + ', height=' + (screen.height) + ', top=0, left=0');
       win.document.write('<html>' +
         '<head><title>' + fileName + '</title></head><body>' +
         '<link rel="stylesheet" href="' + chrome.extension.getURL('css/slides.css') + '">' +
-        '<link rel="stylesheet" href="' + document.location.href.replace('.md', '.css') + '">' +
+        '<link rel="stylesheet" href="' + slidesCss + '">' +
+        '<link rel="stylesheet" href="' + url.replace('.md', '.css') + '">' +
         '<pre id="source">' + pre.innerHTML + '</pre>' +
         '<script src="' + chrome.extension.getURL('js/remark.js') + '"></script>' +
         '<script>var slideshow = remark.create();</script>' +
