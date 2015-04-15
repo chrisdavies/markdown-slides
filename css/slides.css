@@ -53,6 +53,7 @@
 
 body {
   font-family: 'Droid Serif';
+  line-height: 1.4;
 }
 
 h1, h2, h3 {
@@ -67,6 +68,7 @@ h1, h2, h3 {
 .footnote {
   position: absolute;
   bottom: 3em;
+  right: 3em;
 }
 li p { line-height: 1.25em; }
 .red { color: #fa0000; }
