@@ -6,7 +6,9 @@ chrome.pageAction.onClicked.addListener(viewAsSlideshow);
 
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
   if (~(tab.url || '').indexOf('.md')) {
-    chrome.pageAction.show(tabId);
+    chrome.tabs.sendMessage(tab.id, { message: 'is-markdown' }, function (response) {
+      response && response.isMarkdown && chrome.pageAction.show(tabId);
+    });
   }
 });
 

@@ -26,7 +26,7 @@
       "*://*/*.md",
       "file://*/*.md"
     ],
-    "js": ["content.js"]
+    "js": ["content.js", "js/remark.js"]
   }],
   "web_accessible_resources": [
     "css/*.css",

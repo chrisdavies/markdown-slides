@@ -1,1 +1,0 @@
-var slideshow = remark.create();
