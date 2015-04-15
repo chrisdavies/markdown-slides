@@ -11,7 +11,7 @@
   "permissions": [
     "tabs",
     "*://*/*.md",
-    "file://*/*.md",
+    "file:///*/*.md",
     "background"
   ],
   "page_action": {
