@@ -5,6 +5,8 @@ class: center, middle, inverse
 
 Markdown slides is a Chrome extension that allows you to view any markdown file as a slideshow. (Provided it follows a few Remark conventions.)
 
+It can be found [here.](https://chrome.google.com/webstore/detail/markdown-slides/ndpkdbdonkcnidnnmdgphflfcojnhoaa)
+
 .footnote[Powered by [Remark](https://github.com/gnab/remark)]
 
 ---
