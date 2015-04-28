@@ -2,7 +2,7 @@
   "name": "Markdown Slides",
   "description": "View markdown files as a slideshow with one click",
   "homepage_url": "https://github.com/chrisdavies/markdown-slides",
-  "version": "0.15",
+  "version": "0.2",
   "icons": {
 		"16": "icon-16.png",
 		"48": "icon-48.png",

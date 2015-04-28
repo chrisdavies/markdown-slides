@@ -17,7 +17,7 @@
         '<link rel="stylesheet" href="' + url.replace('.md', '.css') + '">' +
         '<pre id="source">' + pre.innerHTML + '</pre>' +
         '<script src="' + chrome.extension.getURL('js/remark.js') + '"></script>' +
-        '<script>var slideshow = remark.create();</script>' +
+        '<script src="' + chrome.extension.getURL('js/init.js') + '"></script>' +
         '</body></html>');
     }
   }
