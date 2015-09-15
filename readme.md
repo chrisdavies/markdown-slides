@@ -18,4 +18,3 @@ It looks for `slides.css` in the same directory as the markdown file.
 Also, it looks for a css file that matches the name of your markdown file. For example, if you have a markdown file called `foo.md`, Markdown Slides will look for a `foo.css` in the same directory.
 
 This allows you to have multiple markdown files in a directory, each sharing a default theme `slides.css`, and each optionally able to have its own theme.
-
