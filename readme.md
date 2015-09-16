@@ -1,23 +1,15 @@
-name: inverse
-class: center, middle, inverse
-
 # Markdown Slides
 
-Markdown slides is a Chrome extension that allows you to view any markdown file as a slideshow. (Provided it follows a few Remark conventions.)
+Markdown slides is a Chrome extension that allows you to view any markdown file as a slideshow directly in your Chrome browser (Provided it follows a few [Remark](https://github.com/gnab/remark) conventions).
 
-It can be found [here.](https://chrome.google.com/webstore/detail/markdown-slides/ndpkdbdonkcnidnnmdgphflfcojnhoaa)
+Download: [Chrome Webstore](https://chrome.google.com/webstore/detail/markdown-slides/ndpkdbdonkcnidnnmdgphflfcojnhoaa)
 
-.footnote[Powered by [Remark](https://github.com/gnab/remark)]
+# Launching a slideshow
 
----
+1. Open a markdown file in a browser tab. You can use [this](https://raw.githubusercontent.com/tiy-durham-fe-cohort4/resources/master/lessons/advanced-css.md) file as an example. 
+2. Press `Ctrl+Shift+M` or `Cmd+Shift+M`, or just click the slideshow icon to render the markdown file directly in your browser.
 
-## Launching slideshow
-
-Press `Ctrl+Shift+M` or `Cmd+Shift+M`, or just click the slideshow icon.
-
----
-
-## Styling
+# Styling
 
 The one deviation from remarkjs is that the extension will look for CSS files by convention, allowing you to customize your presentations. These CSS files are optional.
 
