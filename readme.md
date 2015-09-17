@@ -6,7 +6,7 @@ Download: [Chrome Webstore](https://chrome.google.com/webstore/detail/markdown-s
 
 # Launching a slideshow
 
-1. Open a markdown file in a browser tab. You can use [this](https://raw.githubusercontent.com/tiy-durham-fe-cohort4/resources/master/lessons/advanced-css.md) file as an example. 
+1. Open a markdown file in a browser tab. You can use [this](https://raw.githubusercontent.com/tiy-durham-fe-cohort4/resources/master/lessons/advanced-css.md) file as an example. Note: If you want to use local files, you need to "allow access to file URLs" in `chrome:extensions`.
 2. Press `Ctrl+Shift+M` or `Cmd+Shift+M`, or just click the slideshow icon to render the markdown file directly in your browser.
 
 # Styling
